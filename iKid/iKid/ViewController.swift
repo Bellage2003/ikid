@@ -17,16 +17,18 @@ class ViewController: UIViewController {
     var jokesDictionary: [String: [Joke]] = [
         "Good": [
             Joke(question: "What do you call a bear with no teeth?", punchline: "A gummy bear!"),
-            Joke(question: "What's orange and sounds like a parrot?", punchline: "A carrot!"),
-            Joke(question: "How do you make a tissue dance?", punchline: "You put a little boogie in it!")
+            Joke(question: "What do you call a factory that makes okay products?", punchline: "A satisfactory."),
+            Joke(question: "Why did the golfer bring two pairs of pants?", punchline: "In case he got a hole in one!")
         ],
         "Pun": [
-            Joke(question: "What do you call an alligator in a vest?", punchline: "An investigator!"),
-            Joke(question: "Why don't some couples go to the gym?", punchline: "Because some relationships don't work out!"),
-            Joke(question: "What's the best way to watch a fly fishing tournament?", punchline: "Live stream.")
+            Joke(question: "I would avoid the sushi if I were you.", punchline: "It’s a little fishy."),
+            Joke(question: "Why couldn't the bicycle stand up by itself?", punchline: "It was two-tired!"),
+            Joke(question: "What do you call a dinosaur that is sleeping?", punchline: "A dino-snore!"),
+            Joke(question: "To the guy who invented zero,", punchline: "thanks for nothing!")
         ],
         "Dad": [
-            Joke(question: "Can February March?", punchline: "No, but April May!"),
+            Joke(question: "What kind of bagel can travel?", punchline: "A plain bagel."),
+            Joke(question: "What do you call cheese that isn't yours?", punchline: "Nacho cheese!"),
             Joke(question: "Why did the scarecrow win an award?", punchline: "Because he was outstanding in his field!"),
             Joke(question: "Why don't eggs tell jokes?", punchline: "They'd crack each other up.")
         ]
